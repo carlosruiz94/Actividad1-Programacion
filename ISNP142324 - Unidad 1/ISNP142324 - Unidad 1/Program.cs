@@ -16,6 +16,19 @@ namespace ISNP142324___Unidad_1
             Console.WriteLine("3- Sumatoria de números positivos");
             Console.WriteLine("4- Validador de números primos");
             Console.WriteLine("5- Prmedio de serie de números");
+            int opcion = int.Parse(Console.ReadLine());
+            if (opcion == 1) {
+                Console.Write("Ingrese un número para saber si es positivo o negativo: ");
+                int num1 = int.Parse(Console.ReadLine());
+                if (num1 >= 1)
+                {
+                    Console.WriteLine("El numero ingresado es positivo.");
+                }
+                else
+                {
+                    Console.WriteLine("El numero ingresado es negativo.");
+                }
+                }
         }
-    }
+     }
 }
