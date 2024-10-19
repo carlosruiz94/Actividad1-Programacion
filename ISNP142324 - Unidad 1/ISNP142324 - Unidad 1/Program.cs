@@ -29,11 +29,9 @@ namespace ISNP142324___Unidad_1
                     case 1:
                         Numposneg();
                         break;
-
                     case 2:
                         tablas();
                         break;
-
                     case 3:
                         suma();
                         break;
@@ -126,18 +124,16 @@ namespace ISNP142324___Unidad_1
                 Console.WriteLine("Ingrese números para calcular el promedio. Para finalizar, ingrese 0: ");
                 while (int.TryParse(Console.ReadLine(), out numero) && numero != 0)
                 {
-
                     sumatoria += numero;
                     contador++;
-                    Console.WriteLine("Ingrese números para calcular el promedio. Para finalizar, ingrese 0: ");
+                    Console.WriteLine("Ingrese otro numero para sumar y calcular promedio, ingresar 0 para finalizar");
                 }
-
                 double promedio = (double)sumatoria / contador;
                 Console.WriteLine("El promedio de los números es: " + promedio);
             }
         }
-        }
     }
+}
             
         
 
