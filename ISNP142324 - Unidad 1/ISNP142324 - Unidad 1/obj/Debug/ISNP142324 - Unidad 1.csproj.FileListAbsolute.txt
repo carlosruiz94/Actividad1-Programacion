@@ -1,0 +1,7 @@
+C:\Users\LENOVO\Documents\Actividad 1\ISNP142324 - Unidad 1\ISNP142324 - Unidad 1\bin\Debug\ISNP142324 - Unidad 1.exe.config
+C:\Users\LENOVO\Documents\Actividad 1\ISNP142324 - Unidad 1\ISNP142324 - Unidad 1\bin\Debug\ISNP142324 - Unidad 1.exe
+C:\Users\LENOVO\Documents\Actividad 1\ISNP142324 - Unidad 1\ISNP142324 - Unidad 1\bin\Debug\ISNP142324 - Unidad 1.pdb
+C:\Users\LENOVO\Documents\Actividad 1\ISNP142324 - Unidad 1\ISNP142324 - Unidad 1\obj\Debug\ISNP142324 - Unidad 1.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Documents\Actividad 1\ISNP142324 - Unidad 1\ISNP142324 - Unidad 1\obj\Debug\ISNP142324 - Unidad 1.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\Actividad 1\ISNP142324 - Unidad 1\ISNP142324 - Unidad 1\obj\Debug\ISNP142324 - Unidad 1.exe
+C:\Users\LENOVO\Documents\Actividad 1\ISNP142324 - Unidad 1\ISNP142324 - Unidad 1\obj\Debug\ISNP142324 - Unidad 1.pdb
