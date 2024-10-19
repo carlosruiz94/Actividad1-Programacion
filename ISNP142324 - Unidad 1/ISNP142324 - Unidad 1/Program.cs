@@ -121,35 +121,24 @@ namespace ISNP142324___Unidad_1
             void sumpromed() {
                 int sumatoria = 0;
                 int contador = 0;
-                double promedio;
+                int numero = 0;
 
-                while (true)
+                Console.WriteLine("Ingrese números para calcular el promedio. Para finalizar, ingrese 0: ");
+                while (int.TryParse(Console.ReadLine(), out numero) && numero != 0)
                 {
-                    Console.Write("Ingresa un número (0 para terminar): ");
-                    int numero = int.Parse(Console.ReadLine());
 
-                    if (numero == 0)
-                    {
-                        break;  // Termina el ciclo si el número es 0
-                    }
-
-                    sumatoria += numero;  // Suma el número
-                    contador++;      // Cuenta cuántos números se ingresan
+                    sumatoria += numero;
+                    contador++;
+                    Console.WriteLine("Ingrese números para calcular el promedio. Para finalizar, ingrese 0: ");
                 }
 
-                if (contador > 0)
-                {
-                    promedio = (double)sumatoria / contador;  // Calcula el promedio
-                    Console.WriteLine($"La suma de los números es: {sumatoria}");
-                    Console.WriteLine($"El promedio es: {promedio}");
-                }
-                else
-                {
-                    Console.WriteLine("No se ingresaron números para calcular el promedio.");
-                }
+                double promedio = (double)sumatoria / contador;
+                Console.WriteLine("El promedio de los números es: " + promedio);
             }
+        }
         }
     }
-            }
-        }
+            
+        
+
     
